@@ -87,7 +87,7 @@ nav a {
 
 /* Image styling for the carousel */
 .carousel-container {
-  width: 80%;
+  width: 66%;
   margin: 0 auto;
 }
 
@@ -102,4 +102,31 @@ nav a {
   padding: 20px; 
   border-radius: 8px; 
   color: #333; 
+}
+
+/* Home page 6 images */
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 500px;
+}
+
+.category-container img {
+  width: calc(33.33% - 10px); 
+  height: 200px; 
+  margin: 5px; 
+}
+/* History cards CSS */
+.card-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-container .card img {
+  height: 200px; 
 }
