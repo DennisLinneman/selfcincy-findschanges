@@ -1,4 +1,3 @@
-// Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -7,12 +6,12 @@ function Navbar() {
     <nav>
       <Link to="/">Cincy Finds</Link>
       <Link to="/">Home</Link>
-      <Link to="/history">History</Link>
-      {/* Add more links as needed */}
+      <Link to="/">About Us</Link>
+      <Link to="/">Contact Us</Link>
+      
       <div className="dropdown">
         <button className="dropbtn">Categories</button>
         <div className="dropdown-content">
-          {/* Add more category links as needed */}
           <Link to="/nightlife">Nightlife</Link>
           <Link to="/food">Food/Drinks</Link>
           <Link to="/forecast">Forecast</Link>
